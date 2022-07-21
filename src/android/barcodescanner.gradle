@@ -6,7 +6,7 @@ repositories{
 }
 
 dependencies {
-    implementation 'com.phonegap.plugins.barcodescanner:barcodescanner-release-2.1.5:2.1.5'
+   implementation(name:'barcodescanner-release-2.1.5', ext:'aar')
 }
 
 android {
